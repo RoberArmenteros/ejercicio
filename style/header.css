@@ -1,0 +1,83 @@
+.header{
+  display: grid;
+  grid-template-columns: 1fr;
+  position:fixed;
+  top:0px;
+  left: 0px;
+  right: 0px;
+}
+.header-top{
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(19, 25, 33);
+
+}
+.header-left{
+  display: flex;
+
+}
+.header-center{
+  display: flex;
+  height: 40px;
+  padding-top: 12px;
+  margin-left: 5px;
+  
+}
+.logo{
+  padding-top: 5px;
+  height: 50px;
+  width: 130.317px;
+  cursor: pointer;
+  margin-left: 25px;
+
+}
+.localizacion{
+  padding-top: 0px;
+  margin-left: 5px;
+  position: relative;
+  cursor: pointer;
+
+}
+.icono_locacizacion{
+  position: absolute;
+  margin-top: 30px;
+  height: 15px;
+  width: 20px;
+}
+.datos{
+  padding-left: 20px;
+  width: 150px;
+  position: relative;
+}
+.remitente{
+  position: absolute;
+  color:rgb(167, 167, 167);
+  padding-top: 20px;
+  font-size: 14px;
+}
+.direccion{
+  position: absolute;
+  color:white;
+  padding-top: 18px;
+  font-weight: bold;
+}
+.departamento{
+  border: none;
+}
+.search-bar{
+  width: 850px;
+}
+#search-icon{
+  fill: rgb(92, 92, 92);
+  background-color: rgb(255, 191, 73);
+
+}
+
+
+
+
+.header-bottom{
+  background-color: rgb(35, 47, 62);
+
+}
