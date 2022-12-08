@@ -22,6 +22,7 @@
   height: 40px;
   padding-top: 12px;
   margin-left: 5px;
+  padding-right: 12px;
   
 }
 .logo{
@@ -64,20 +65,92 @@
 }
 .departamento{
   border: none;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
 }
 .search-bar{
   width: 850px;
+  border-right: none;
+}
+.search-button{
+  height: 40px;
+  width: 44px;
+  background-color: rgb(255, 191, 73);
+  border:none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
 }
 #search-icon{
-  fill: rgb(92, 92, 92);
+  fill: rgb(31, 31, 31);
   background-color: rgb(255, 191, 73);
-
+  
+  border-left: none;
+  width: 35px;
+  height: 27px;
 }
 
 
 
+.header-right{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.idioma{
+  cursor: pointer;
+  position: absolute;
+}
+.idioma-button{
+  margin-top: 20px;
+  display: flex;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size:medium
+  
+}
 
 .header-bottom{
   background-color: rgb(35, 47, 62);
 
+}
+.desplegar-idioma{
+  width: 50px;
+  height: 50px;
+}
+.bandera{
+  width: 25px;
+  height: 18px; 
+}
+.formulario,
+.formulario-login{
+  display: none;
+  background-color: lightgrey;
+  width: 150px;
+}
+.idioma:hover .formulario{
+  display: block;
+}
+.login{
+  margin-top: 15px;
+  margin-left: 60px;
+  position: relative;
+  cursor: pointer;
+  color: white;
+}
+.usuario{
+  position: absolute;
+  width: 100px;
+}
+.cuenta{
+  position: absolute;
+  width: 100px;
+
+}
+.login:hover .formulario-login{
+  display: block;
 }
